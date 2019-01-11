@@ -48,6 +48,8 @@ mix.copy('resources/assets/template/js/datepicker.js',
     'public/assets/js/datepicker.js');
 mix.copy('resources/assets/js/ajaxDocument.js',
     'public/assets/js/ajaxDocument.js');
+mix.copy('resources/assets/template/js/timepicker.init.js',
+    'public/assets/js/timepicker.init.js');
 
 mix.copy('resources/assets/template/img/favicon.ico',
     'public/assets/img/favicon.ico');

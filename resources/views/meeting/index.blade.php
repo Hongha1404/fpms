@@ -7,12 +7,12 @@
         <div class="d-flex align-items-center">
             <div class="mr-auto">
                 <h3 class="m-subheader__title ">
-                    {{ __('quantity meeting') }} ({{ $meetings->count() }})
+                    {{ __('Quantity meeting') }} ({{ $meetings->count() }})
                 </h3>
                 <a href="{{ route('user.meeting.create') }}">
                     <button class="btn m-btn--pill btn-primary">
                         <i class="fa fa-plus"></i>
-                        {{ __('create new meeting') }}
+                        {{ __('Create new meeting') }}
                     </button>
                 </a>
             </div>
@@ -57,7 +57,7 @@
                                     </a>
                                 </li>
                                 {{ Form::open([ 'method' => 'DELETE', 'route' => [ 'user.meeting.destroy', $meeting->id], 'class' => 'm-portlet__nav-item']) }}
-                                    {{ Form::button('<i class="fa fa-trash"></i>', ['type' => 'submit', 'class' => 'btn m-btn--pill btn-danger'] )  }}
+                                    {{ Form::button('<i class="fa fa-trash"></i>', ['type' => 'submit', 'class' => 'btn m-btn--pill btn-danger']) }}
                                 {{ Form::close() }}
                             </ul>
                         </div>
@@ -74,7 +74,7 @@
                                                 <a class="m-nav__link">
                                                     <i class="m-nav__link-icon flaticon-info"></i>
                                                     <span class="m-nav__link-text">
-                                                        {{ __('meeting type') }}: {!! $meeting->meetingType->name !!}
+                                                        {{ __('Meeting type') }}: {!! $meeting->meetingType->name !!}
                                                     </span>
                                                 </a>
                                             </li>
@@ -82,7 +82,7 @@
                                                 <a class="m-nav__link">
                                                     <i class="m-nav__link-icon flaticon-info"></i>
                                                     <span class="m-nav__link-text">
-                                                        {{ __('location') }}: <p>{!! $meeting->location !!}</p>
+                                                        {{ __('Location') }}: <p>{!! $meeting->location !!}</p>
                                                     </span>
                                                 </a>
                                             </li>
@@ -90,7 +90,7 @@
                                                 <a class="m-nav__link">
                                                     <i class="m-nav__link-icon flaticon-info"></i>
                                                     <span class="m-nav__link-text">
-                                                        {{ __('hosting by') }}: {{ $meeting->hostingBy($meeting->hosting_by)->name }}
+                                                        {{ __('Hosting by') }}: {{ $meeting->hostingBy($meeting->hosting_by)->name }}
                                                     </span>
                                                 </a>
                                             </li>

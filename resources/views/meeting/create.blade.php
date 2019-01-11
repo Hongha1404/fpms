@@ -7,7 +7,7 @@
         <div class="d-flex align-items-center">
             <div class="mr-auto">
                 <h3 class="m-subheader__title ">
-                    {{ __('Create New Release Plan') }}
+                    {{ __('Create New Meeting') }}
                 </h3>
             </div>
             <div>
@@ -164,7 +164,7 @@
             var id = $(this).val();
             var users = [] ;
             $.ajax({
-                url : "getUser/" + id,
+                url : 'getUser/' + id,
                 type : 'get',
                 dataType : 'json',
                 success : function (result){

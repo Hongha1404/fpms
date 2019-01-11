@@ -82,6 +82,9 @@ class ReleaseController extends Controller
      */
     public function show($id)
     {
+        $release = $this->release->find($id);
+
+        return view('release.show', compact('release'));
     }
 
     /**

@@ -14,10 +14,11 @@
     "/assets/js/select.js": "/assets/js/select.js",
     "/assets/js/datepicker.js": "/assets/js/datepicker.js",
     "/assets/js/ajaxDocument.js": "/assets/js/ajaxDocument.js",
+    "/assets/js/timepicker.init.js": "/assets/js/timepicker.init.js",
     "/assets/img/favicon.ico": "/assets/img/favicon.ico",
     "/assets/auth/img/bg-1.jpg": "/assets/auth/img/bg-1.jpg",
     "/assets/auth/img/logo-1.png": "/assets/auth/img/logo-1.png",
-    "/assets/img/32px.png": "/assets/img/32px.png",
-    "/assets/img/40px.png": "/assets/img/40px.png",
-    "/assets/img/throbber.gif": "/assets/img/throbber.gif"
+    "/assets/css/images/jstree/32px.png": "/assets/css/images/jstree/32px.png",
+    "/assets/css/images/jstree/40px.png": "/assets/css/images/jstree/40px.png",
+    "/assets/css/images/jstree/throbber.gif": "/assets/css/images/jstree/throbber.gif"
 }
